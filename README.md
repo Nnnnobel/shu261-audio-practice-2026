@@ -6,14 +6,16 @@
 
 | 作业 | 内容 | 入口 | 当前状态 |
 | --- | --- | --- | --- |
-| 平时作业 Task | 当下 AIGC 在游戏音频设计中的应用 | [调研文档](task/research.md) | 文档骨架，待撰写 |
+| 平时作业 Task | AIGC 在聚光灯 GameJam 项目中的应用调研 | [调研文档](task/research.md) · [实验计划](task/experiment-plan.md) | 题目、大纲与计划已确定，实验未开展 |
 | 期末作业 Final | 环境声设计与 Wwise 工程 | [期末作业说明](final/README.md) | 待开始 |
 
 ## 目录
 
 ```text
 task/
-  research.md       平时作业调研正文
+  research.md       调研题目、大纲与后续正文
+  experiment-plan.md 实验步骤、提示词草案与评价方法
+  experiment-records.md 实验记录表（未开展项留空）
   assets/           调研配图、音频或视频等辅助材料
 final/
   README.md         期末作业要求摘要，后续补充实际成果入口
@@ -27,7 +29,7 @@ final/
 - 仓库保持公开，完成后通过邮件提交仓库链接。
 - 邮件标题：`SHU261基础实践_Task_[学号]_[姓名]`。
 
-以上为课程附件要求摘要。当前仓库仅完成初始化，调研内容和邮件提交尚未完成。
+以上为课程附件要求摘要。当前已确定题目、大纲与实验计划；实验、分析结论和邮件提交尚未完成。
 
 ## 更新仓库
 
