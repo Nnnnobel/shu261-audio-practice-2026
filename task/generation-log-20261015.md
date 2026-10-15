@@ -20,11 +20,15 @@
 
 ## 实际提示词
 
+以下英文为本轮实际提交文本；中文为对应释义，供理解与调整，不提交给平台。
+
 ### E01 温室雨声
 
 ```text
 Soft steady rain outside a small glass greenhouse, heard from the quiet interior through a partly open window. Fine rain on glass with a gentle, slightly distant texture and natural variation. Seamless ambient loop. No prominent individual drips, thunder, strong wind, voices, or music.
 ```
+
+中文对照：从安静的室内，透过一扇半开的窗户，听见小型玻璃温室外柔和、持续的雨声。细雨落在玻璃上，声音轻柔、稍有距离感，并有自然变化。作为首尾无明显接缝的环境声循环。不要突出的单次滴水声、雷声、强风、人声或音乐。
 
 ### E02 桌面敲击
 
@@ -32,11 +36,17 @@ Soft steady rain outside a small glass greenhouse, heard from the quiet interior
 One light fingertip tap on a wooden greenhouse worktable. A clear close attack, a small warm woody resonance, and a short dry decay. Gentle touch on a solid surface. Isolated single tap, no repeated knocking, background rain, voices, music, or long reverb.
 ```
 
+中文对照：用指尖轻轻敲一下温室里的木质工作台。起音清楚、听感距离近，带有少量温暖的木质共鸣，声音短促衰减，保持干声。表现轻触结实桌面的感觉。只要独立的一次敲击，不要反复敲击、背景雨声、人声、音乐或长混响。
+
 ### E02 种子发芽
 
 ```text
 A tiny dry seed shell gently splitting, followed by the delicate rustle of a tender shoot slowly unfolding. A small intimate organic sound, soft and close, with a brief natural decay. One short event. No dramatic cracking, magical chimes, explosion, voices, music, or long reverb.
 ```
+
+中文对照：一颗细小、干燥的种子外壳轻轻裂开，随后是嫩芽缓慢舒展时细微的窸窣声。声音轻微、贴近，带有自然生长的质感，柔和且近距离，尾音自然、短暂地衰减。只表现一次短事件。不要夸张的爆裂声、魔法钟声、爆炸、人声、音乐或长混响。
+
+这里的 attack 指声音开始时的起音；decay 指声音随时间衰减的过程；dry 指尽量不带明显混响的干声；seamless loop 指首尾衔接时没有明显断点的循环。
 
 ## 已完成的检查
 
@@ -46,6 +56,10 @@ A tiny dry seed shell gently splitting, followed by the delicate rustle of a ten
 - 本地按实验类别与候选编号整理原始文件，复制前后字节一致，并保存 SHA-256 清单。没有剪辑、归一化、采样率转换或位深转换。
 
 原始音频和包含原下载文件名的 `manifest.json` 已在本地归档；本次 GitHub 更新仅包含文字记录，音频尚未上传。生成结果可在本人登录后的 [ElevenLabs 历史记录](https://elevenlabs.io/app/sound-effects/history)查看，该链接不是公开音频分享链接。
+
+## 后续操作约定
+
+本轮下载属于已经完成的操作记录。此后按我的新要求，提示词均提供英文与中文对照，实际仅提交英文；生成后先通知我到 ElevenLabs 网页查看和试听，不自动下载或做本地音频整理。需要编辑或接入游戏时，再根据我的安排处理。
 
 ## 待完成
 
