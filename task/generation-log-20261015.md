@@ -70,3 +70,5 @@ A tiny dry seed shell gently splitting, followed by the delicate rustle of a ten
 - 水滴单次音效与 E03、E04 音乐实验。
 
 上述文件检查只确认已获得对应格式与时长的音频。声音是否自然、是否符合提示词、是否适合项目，仍待实际试听。
+
+后续已收到我的网页试听反馈，见[第一轮试听反馈与第二轮调整](iteration-02-20261015.md)。本文保留首次生成时的操作事实。
