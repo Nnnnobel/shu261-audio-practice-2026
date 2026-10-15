@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="320" viewBox="0 0 1040 320" role="img" aria-labelledby="title desc">
+  <title id="title">SHU 2026 基础实践：游戏音频</title>
+  <desc id="desc">奶油色背景上的玻璃温室、雨滴、种子与声音波形。</desc>
+  <defs>
+    <pattern id="rain" width="33" height="34" patternUnits="userSpaceOnUse" patternTransform="rotate(18)">
+      <path d="M12 5v11" stroke="#f6f4ec" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+    </pattern>
+    <clipPath id="window"><path d="M674 242V105l127-59 128 59v137Z"/></clipPath>
+  </defs>
+  <rect width="1040" height="320" rx="24" fill="#f4efe5"/>
+  <path d="M0 265c153-24 251 16 395-2s244-19 375-3 183 13 270-2v62H0Z" fill="#e9e2d6"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+    <rect x="48" y="40" width="112" height="26" rx="13" fill="#dde4d7"/>
+    <text x="104" y="58" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.6" fill="#4a6151">SHU · 2026</text>
+    <text x="48" y="124" font-size="43" font-weight="700" fill="#334b3c">基础实践 · 游戏音频</text>
+    <text x="50" y="161" font-size="18" letter-spacing="2.2" fill="#6c776b">AIGC AUDIO / COURSEWORK</text>
+    <path d="M49 187h450" stroke="#d5d7cc"/>
+    <text x="50" y="220" font-size="16" fill="#687467">游戏项目 · 声音设计 · 协作探索</text>
+    <text x="50" y="268" font-size="12" letter-spacing="2" fill="#8b9083">CODEX  ×  ELEVENLABS</text>
+  </g>
+  <circle cx="814" cy="149" r="124" fill="#e4e8db"/>
+  <g clip-path="url(#window)">
+    <rect x="668" y="44" width="268" height="204" fill="#a6b9c8"/>
+    <path d="M668 169q48-30 83-7t76-5 109 12v81H668Z" fill="#8fa7b7" opacity=".6"/>
+    <rect x="668" y="44" width="268" height="204" fill="url(#rain)"/>
+    <rect x="670" y="203" width="263" height="44" fill="#e5dbc9"/>
+  </g>
+  <g fill="none" stroke="#76877a" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M674 242V105l127-59 128 59v137Z"/>
+    <path d="M801 51v149M677 127h249M735 82v118M867 82v118" stroke-width="5"/>
+  </g>
+  <path d="M704 206h193v11H704Z" fill="#c6a98a"/>
+  <path d="M722 217v27m158-27v27" stroke="#ae9276" stroke-width="6"/>
+  <path d="M781 199c-7-8-3-19 8-22 13-3 20 7 15 16-4 8-15 12-23 6Z" fill="#8d745d"/>
+  <path d="M787 195q2-9 10-13" fill="none" stroke="#bc9d77" stroke-width="2" stroke-linecap="round"/>
+  <g stroke="#708b7a" stroke-width="4" stroke-linecap="round" opacity=".8">
+    <path d="M618 199v12m12-23v34m12-47v60m12-38v18"/>
+    <path d="M949 195v20m12-35v50m12-31v12"/>
+  </g>
+  <circle cx="940" cy="70" r="5" fill="#c6ad7e"/>
+  <circle cx="652" cy="100" r="3" fill="#9aaf9d"/>
+</svg>

@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/readme-assets/header.svg" width="1040" alt="SHU 2026 基础实践：游戏音频。温室、雨声与种子的协作探索。">
+</p>
+
 # SHU 2026 基础实践：游戏音频
 
 本仓库用于提交基础实践课程的平时作业（Task）与期末作业（Final）。
@@ -6,10 +10,20 @@
 
 ## 作业入口
 
+[![平时作业 Task · 点击查看调研报告](docs/readme-assets/task.svg)](task/research.md)
+
+[![期末作业 Final · 点击查看作业说明](docs/readme-assets/final.svg)](final/README.md)
+
+**快速访问：** [平时调研报告](task/research.md) · [实验计划](task/experiment-plan.md) · [实验记录](task/experiment-records.md) · [提示词中英文对照](task/generation-log-20261015.md) · [期末作业说明](final/README.md)
+
+### 内容与进度
+
 | 作业 | 内容 | 入口 | 当前状态 |
 | --- | --- | --- | --- |
 | 平时作业 Task | 基于真实游戏项目的 AI 音频设计协作探索 | [调研文档](task/research.md) · [实验计划](task/experiment-plan.md) | 首轮反馈已记录，第二轮三类音效已生成，待网页试听 |
 | 期末作业 Final | 环境声设计与 Wwise 工程 | [期末作业说明](final/README.md) | 待开始 |
+
+---
 
 ## 目录
 
@@ -21,6 +35,7 @@ task/
   assets/           调研配图、音频或视频等辅助材料
 final/
   README.md         期末作业要求摘要，后续补充实际成果入口
+docs/readme-assets/  README 页头与作业入口图形
 ```
 
 ## 平时作业要求
