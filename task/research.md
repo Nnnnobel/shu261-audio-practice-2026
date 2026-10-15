@@ -97,8 +97,9 @@ Codex 据此将雨声改为均匀持续的雨底，将敲击改为温暖、圆�
 | 平台 | 应用版本 | 使用模型 | 推理强度 | 会员套餐 |
 | --- | --- | --- | --- | --- |
 | Codex 桌面应用 | 26.1007.71326（构建号 20398） | GPT-6.1 Sol | High | ChatGPT Pro |
+| ElevenLabs Sound Effects | 网页版 | — | — | Free（免费套餐） |
 
-应用版本依据本机安装信息，模型与推理强度由我确认，套餐依据当前登录账户状态。Codex 通过 ChatGPT 订阅使用，相关订阅说明见 [OpenAI 官方文档](https://learn.chatgpt.com/docs/pricing)。
+Codex 应用版本依据本机安装信息，模型与推理强度由我确认，套餐依据当前登录账户状态；ElevenLabs 免费套餐由我确认。Codex 通过 ChatGPT 订阅使用，相关订阅说明见 [OpenAI 官方文档](https://learn.chatgpt.com/docs/pricing)。
 
 工具资料为实际探索提供依据，具体功能说明与本次验证结果分别记录。
 
