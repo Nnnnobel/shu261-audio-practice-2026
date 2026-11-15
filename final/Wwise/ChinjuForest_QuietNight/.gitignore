@@ -1,0 +1,14 @@
+# Wwise-generated data and local user state
+.cache/
+.backup/
+.wbackup/
+GeneratedSoundBanks/
+*.wsettings
+*.wuser
+*.prof
+*.akd
+IncrementalSoundBankData.xml
+.DS_Store
+# Track ChinjuForest.wproj, all .wwu files, and Originals/SFX/ChinjuForest/*.wav.
+
+*.validationcache

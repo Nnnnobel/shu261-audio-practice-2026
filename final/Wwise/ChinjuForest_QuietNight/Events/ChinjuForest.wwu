@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A5DB34BB-8D20-41EC-8856-CAE53CA10A78}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="ChinjuForest" ID="{A5DB34BB-8D20-41EC-8856-CAE53CA10A78}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_ChinjuForest" ID="{71CF5C96-0379-41D7-880C-F6494C1DD984}">
+					<ChildrenList>
+						<Action Name="Play_AMB_Stream_Loop" ID="{A19F100F-432D-403E-967E-E6688F25EE8D}" ShortID="626234890">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Stream_Loop" ID="{D5768B23-24F6-4B77-A817-1FFB81F3B57D}" WorkUnitID="{D4673AD6-CA9C-41B4-AA74-BBD87909C5B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="Play_AMB_ForestWind_Loop" ID="{CEB172C8-05F4-4F88-A85E-BE7F1161A5EB}" ShortID="531230054">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_ForestWind_Loop" ID="{16007723-6C1B-426A-8CCF-27F2ED4DBF7B}" WorkUnitID="{D4673AD6-CA9C-41B4-AA74-BBD87909C5B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="Play_Birds_Random" ID="{CEF658F4-AB40-44C8-900A-F5410E5ED5B9}" ShortID="177312940">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Birds_Random" ID="{765E0ED7-FC3B-4178-9E05-B4667A858590}" WorkUnitID="{D4673AD6-CA9C-41B4-AA74-BBD87909C5B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="Play_AMB_Cicadas_Loop" ID="{D7C02E37-CC4B-4CF0-8BA2-5369CF046DD9}" ShortID="766479000">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Cicadas_Loop" ID="{CE38FAB2-8C3B-482C-B781-B1011B34ECCC}" WorkUnitID="{D4673AD6-CA9C-41B4-AA74-BBD87909C5B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="Play_Leaves_Random" ID="{C613F56C-97DF-49E6-9DB8-57A5A31BA26D}" ShortID="326268917">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Leaves_Random" ID="{D937044A-A6F8-4487-937D-02B389D2F074}" WorkUnitID="{D4673AD6-CA9C-41B4-AA74-BBD87909C5B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_ChinjuForest" ID="{2863FE25-BC30-435A-B056-41EC335F9433}">
+					<ChildrenList>
+						<Action Name="Stop_Scene" ID="{27E29D55-6E4E-4946-B8FA-75B118C6FE36}" ShortID="378454392">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Scene" ID="{C347273B-5E83-4E3A-BB21-ADBB47FA5916}" WorkUnitID="{D4673AD6-CA9C-41B4-AA74-BBD87909C5B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Birds_Only" ID="{EB55D79B-7FF6-4067-9628-E3D461693767}">
+					<ChildrenList>
+						<Action Name="Play_Birds_Random" ID="{3D2B9B5D-3EA8-4D37-84E9-42B05CDE2FA9}" ShortID="414636170">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Birds_Random" ID="{765E0ED7-FC3B-4178-9E05-B4667A858590}" WorkUnitID="{D4673AD6-CA9C-41B4-AA74-BBD87909C5B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cicadas_Only" ID="{A2DBB890-1282-4F7D-807D-7389C1D53307}">
+					<ChildrenList>
+						<Action Name="Play_AMB_Cicadas_Loop" ID="{8A8EC6C3-E28F-4B5C-91C5-E6578A7C8875}" ShortID="27839850">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Cicadas_Loop" ID="{CE38FAB2-8C3B-482C-B781-B1011B34ECCC}" WorkUnitID="{D4673AD6-CA9C-41B4-AA74-BBD87909C5B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Leaves_Only" ID="{0BDB8FE9-989B-4E77-87B4-F2A6C70F2A68}">
+					<ChildrenList>
+						<Action Name="Play_Leaves_Random" ID="{08FEB420-2733-4097-AD60-E976BE4CE021}" ShortID="132165870">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Leaves_Random" ID="{D937044A-A6F8-4487-937D-02B389D2F074}" WorkUnitID="{D4673AD6-CA9C-41B4-AA74-BBD87909C5B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

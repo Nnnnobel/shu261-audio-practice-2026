@@ -19,3 +19,22 @@ Desktop.ini
 .env
 .env.*
 !.env.example
+
+# Wwise generated files; keep .wproj, .wwu and Originals tracked
+**/.cache/
+**/.backup/
+**/.wbackup/
+**/GeneratedSoundBanks/
+*.wsettings
+*.wuser
+*.validationcache
+*.prof
+*.akd
+**/IncrementalSoundBankData.xml
+# REAPER generated peaks and local backups
+*.reapeaks
+*.rpp-bak
+*.RPP-bak
+**/peaks/
+**/Backups/
+**/__pycache__/

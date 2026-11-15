@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<WwiseDocument Type="WorkUnit" ID="{42C3F960-14D3-4BF1-94B4-514AF03F86EE}" SchemaVersion="133">
+	<SoundcasterSessions>
+		<WorkUnit Name="ChinjuForest" ID="{42C3F960-14D3-4BF1-94B4-514AF03F86EE}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="ChinjuForest_Demo" ID="{C0BF7660-AD55-44BF-B564-19FCDCA54E22}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_ChinjuForest" ID="{71CF5C96-0379-41D7-880C-F6494C1DD984}" WorkUnitID="{A5DB34BB-8D20-41EC-8856-CAE53CA10A78}" />
+							<Position X="0" Y="0" />
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_ChinjuForest" ID="{2863FE25-BC30-435A-B056-41EC335F9433}" WorkUnitID="{A5DB34BB-8D20-41EC-8856-CAE53CA10A78}" />
+							<Position X="1" Y="0" />
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Birds_Only" ID="{EB55D79B-7FF6-4067-9628-E3D461693767}" WorkUnitID="{A5DB34BB-8D20-41EC-8856-CAE53CA10A78}" />
+							<Position X="0" Y="1" />
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Cicadas_Only" ID="{A2DBB890-1282-4F7D-807D-7389C1D53307}" WorkUnitID="{A5DB34BB-8D20-41EC-8856-CAE53CA10A78}" />
+							<Position X="1" Y="1" />
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Leaves_Only" ID="{0BDB8FE9-989B-4E77-87B4-F2A6C70F2A68}" WorkUnitID="{A5DB34BB-8D20-41EC-8856-CAE53CA10A78}" />
+							<Position X="0" Y="2" />
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Stream_Level" ID="{B50419AF-C188-410A-A1C1-B32F677B997C}" WorkUnitID="{5D931709-4C62-4775-B6CD-CE5CFF7FC865}" />
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Wind_Level" ID="{57DBEC8D-80C1-48B5-9690-E2568839F7EA}" WorkUnitID="{5D931709-4C62-4775-B6CD-CE5CFF7FC865}" />
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Birds_Level" ID="{B7FEF1E2-75BB-41A2-8EDF-784304983C33}" WorkUnitID="{5D931709-4C62-4775-B6CD-CE5CFF7FC865}" />
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Cicadas_Level" ID="{B46CAA4E-55FF-4742-9763-E4828F8F7513}" WorkUnitID="{5D931709-4C62-4775-B6CD-CE5CFF7FC865}" />
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Leaves_Level" ID="{5BBB84EC-3667-4420-96E2-1A29089CF94C}" WorkUnitID="{5D931709-4C62-4775-B6CD-CE5CFF7FC865}" />
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

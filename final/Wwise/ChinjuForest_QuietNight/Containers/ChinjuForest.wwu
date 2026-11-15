@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D4673AD6-CA9C-41B4-AA74-BBD87909C5B1}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="ChinjuForest" ID="{D4673AD6-CA9C-41B4-AA74-BBD87909C5B1}" PersistMode="Standalone">
+			<ChildrenList>
+				<PropertyContainer Name="Scene" ID="{C347273B-5E83-4E3A-BB21-ADBB47FA5916}" ShortID="861288248">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A1385F8-98CE-4BF4-9B4A-362D84378E5B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{788431F7-6E5E-445E-98C9-1FBA8A70CEE8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Birds_Random" ID="{765E0ED7-FC3B-4178-9E05-B4667A858590}" ShortID="788746359">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="1"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>22</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="52.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{48FB6F8C-190E-4032-A00A-ECB2D32D6FBC}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="12.5"/>
+													<Property Name="Min" Type="Real64" Value="-12.5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{EBDC9761-92D0-4A6F-91DA-305D06BB1527}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Birds_Distance" ID="{53F02709-432D-4CA9-9E46-7F967581C846}" WorkUnitID="{83FEB7DD-74B5-48AA-AEF3-7CF5D21436BF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A1385F8-98CE-4BF4-9B4A-362D84378E5B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{788431F7-6E5E-445E-98C9-1FBA8A70CEE8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="BRD_Distant_01" ID="{2D094D92-5865-4AEC-B9C9-239EB2621725}" ShortID="763536648">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A1385F8-98CE-4BF4-9B4A-362D84378E5B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{788431F7-6E5E-445E-98C9-1FBA8A70CEE8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BRD_Distant_01" ID="{CB940CD4-6994-4C1E-B6D5-AAF3913CF0C5}">
+											<Language>SFX</Language>
+											<AudioFile>ChinjuForest\BRD_Distant_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="483473982"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BRD_Distant_01" ID="{CB940CD4-6994-4C1E-B6D5-AAF3913CF0C5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BRD_Distant_02" ID="{7257F9A4-E103-4A80-8613-F925343709B9}" ShortID="362044796">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A1385F8-98CE-4BF4-9B4A-362D84378E5B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{788431F7-6E5E-445E-98C9-1FBA8A70CEE8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BRD_Distant_02" ID="{4C9F9E55-3E48-4FAC-BC58-DB2920D811B7}">
+											<Language>SFX</Language>
+											<AudioFile>ChinjuForest\BRD_Distant_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="282571270"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BRD_Distant_02" ID="{4C9F9E55-3E48-4FAC-BC58-DB2920D811B7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BRD_Distant_03" ID="{8F17C7F5-6DF9-4231-A81A-BBA390CB55BD}" ShortID="494605437">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A1385F8-98CE-4BF4-9B4A-362D84378E5B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{788431F7-6E5E-445E-98C9-1FBA8A70CEE8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BRD_Distant_03" ID="{361D9B02-3BDB-44C9-A7FD-34E9B1DB5E7C}">
+											<Language>SFX</Language>
+											<AudioFile>ChinjuForest\BRD_Distant_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="901423467"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BRD_Distant_03" ID="{361D9B02-3BDB-44C9-A7FD-34E9B1DB5E7C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{47D69AD8-AEBC-48CD-A73D-F93B2A25B8FC}">
+									<PropertyList>
+										<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+										<Property Name="PanY" Type="Real64" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="Birds_Random_Fixed" ID="{7BFB95A0-8F96-4268-AE97-21FE6AC6A502}">
+											<PointList>
+												<Point>
+													<XPos>35.35533</XPos>
+													<YPos>40.50847</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<RTPC Name="" ID="{50BDE520-0FD6-425B-BFE2-47AFDDA546E2}" ShortID="424980785">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Birds_Level" ID="{B7FEF1E2-75BB-41A2-8EDF-784304983C33}" WorkUnitID="{5D931709-4C62-4775-B6CD-CE5CFF7FC865}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{98D45585-1431-4954-ABB6-105011537F60}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>25</XPos>
+																<YPos>-12</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>50</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>6</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<Sound Name="AMB_ForestWind_Loop" ID="{16007723-6C1B-426A-8CCF-27F2ED4DBF7B}" ShortID="412972717">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-27</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A1385F8-98CE-4BF4-9B4A-362D84378E5B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{788431F7-6E5E-445E-98C9-1FBA8A70CEE8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_ForestWind_Loop" ID="{F047E3DB-3B93-43CE-B958-D722E828DD5A}">
+									<Language>SFX</Language>
+									<AudioFile>ChinjuForest\AMB_ForestWind_Loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="463234340"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<RTPC Name="" ID="{C46A98E9-0F98-4B66-8699-7C8B46F80F20}" ShortID="130665112">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Wind_Level" ID="{57DBEC8D-80C1-48B5-9690-E2568839F7EA}" WorkUnitID="{5D931709-4C62-4775-B6CD-CE5CFF7FC865}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{E40E807F-4A9F-441A-8E6D-EC766A846472}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>25</XPos>
+																<YPos>-12</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>50</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>6</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_ForestWind_Loop" ID="{F047E3DB-3B93-43CE-B958-D722E828DD5A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AMB_Stream_Loop" ID="{D5768B23-24F6-4B77-A817-1FFB81F3B57D}" ShortID="228421887">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="1"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="AttenuationDistanceScaling" Type="Real32" Value="0.95"/>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Stream_Distance" ID="{2061D1D9-FA42-4D15-B257-91CCE41131CE}" WorkUnitID="{83FEB7DD-74B5-48AA-AEF3-7CF5D21436BF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A1385F8-98CE-4BF4-9B4A-362D84378E5B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{788431F7-6E5E-445E-98C9-1FBA8A70CEE8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Stream_Loop" ID="{8890DBBA-C608-482F-BA5D-A2008205BA54}">
+									<Language>SFX</Language>
+									<AudioFile>ChinjuForest\AMB_Stream_Loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="943254942"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{36BED7DF-4C74-4685-9161-27D73ACECF02}">
+									<PropertyList>
+										<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+										<Property Name="PanY" Type="Real64" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="AMB_Stream_Loop_Fixed" ID="{06EDB4A7-4FF9-402B-AE63-3773685BF7D5}">
+											<PointList>
+												<Point>
+													<XPos>-35.95605</XPos>
+													<YPos>67.74011</YPos>
+													<ZPos>-6.66667</ZPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<RTPC Name="" ID="{142938E9-19B4-42C2-8044-CFC465C4B86C}" ShortID="734881959">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Stream_Level" ID="{B50419AF-C188-410A-A1C1-B32F677B997C}" WorkUnitID="{5D931709-4C62-4775-B6CD-CE5CFF7FC865}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{02E33DB1-6C5E-438D-8D86-29A8681FB9E4}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>25</XPos>
+																<YPos>-12</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>50</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>6</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Stream_Loop" ID="{8890DBBA-C608-482F-BA5D-A2008205BA54}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AMB_Cicadas_Loop" ID="{CE38FAB2-8C3B-482C-B781-B1011B34ECCC}" ShortID="925740349">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="1"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Cicadas_Distance" ID="{F4AB36A9-1224-4888-9F87-44292507B671}" WorkUnitID="{83FEB7DD-74B5-48AA-AEF3-7CF5D21436BF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A1385F8-98CE-4BF4-9B4A-362D84378E5B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{788431F7-6E5E-445E-98C9-1FBA8A70CEE8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Cicadas_Loop" ID="{33C44C56-DC68-4D59-91B8-5C37B3C3631C}">
+									<Language>SFX</Language>
+									<AudioFile>ChinjuForest\AMB_Cicadas_Loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="2141021123"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{73973259-990F-47DF-9E82-D02DB8CCC515}">
+									<PropertyList>
+										<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+										<Property Name="PanY" Type="Real64" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="AMB_Cicadas_Loop_Fixed" ID="{397E5CF9-4E51-4678-93B9-0CCD959B1E3B}">
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>56.86441</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<RTPC Name="" ID="{8DC27BA0-E8AC-4DDD-B4D6-B693D0F1B989}" ShortID="185882821">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Cicadas_Level" ID="{B46CAA4E-55FF-4742-9763-E4828F8F7513}" WorkUnitID="{5D931709-4C62-4775-B6CD-CE5CFF7FC865}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{B6A09448-CE25-47D3-92B1-11469441325D}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>25</XPos>
+																<YPos>-12</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>50</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>6</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Cicadas_Loop" ID="{33C44C56-DC68-4D59-91B8-5C37B3C3631C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Leaves_Random" ID="{D937044A-A6F8-4487-937D-02B389D2F074}" ShortID="678065444">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="1"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{983C4D05-34A9-4C69-9A61-8374428A9B5E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="8"/>
+													<Property Name="Min" Type="Real64" Value="-8"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{16F105FA-2C59-4111-B1E1-09B6EDDD0FF5}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Leaves_Distance" ID="{578F0468-CCFA-4C09-8CCC-FC80141A6B78}" WorkUnitID="{83FEB7DD-74B5-48AA-AEF3-7CF5D21436BF}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A1385F8-98CE-4BF4-9B4A-362D84378E5B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{788431F7-6E5E-445E-98C9-1FBA8A70CEE8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="LEAF_Rustle_01" ID="{450564F3-9FE0-427F-9BF2-6B64E5052BC4}" ShortID="779386048">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A1385F8-98CE-4BF4-9B4A-362D84378E5B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{788431F7-6E5E-445E-98C9-1FBA8A70CEE8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LEAF_Rustle_01" ID="{53C15BB4-C8C8-4A62-8A65-1F6CFECE4E4C}">
+											<Language>SFX</Language>
+											<AudioFile>LEAF_Rustle_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="129948707"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LEAF_Rustle_01" ID="{53C15BB4-C8C8-4A62-8A65-1F6CFECE4E4C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LEAF_Rustle_02" ID="{5368CA1A-F51D-4FE2-B232-D05105A721F9}" ShortID="714659067">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A1385F8-98CE-4BF4-9B4A-362D84378E5B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{788431F7-6E5E-445E-98C9-1FBA8A70CEE8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LEAF_Rustle_02" ID="{6C73FF9E-CDD4-459E-AD1C-DB1EA5FCF0B6}">
+											<Language>SFX</Language>
+											<AudioFile>LEAF_Rustle_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1021055614"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LEAF_Rustle_02" ID="{6C73FF9E-CDD4-459E-AD1C-DB1EA5FCF0B6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LEAF_Rustle_03" ID="{7B772032-1437-4BC1-BDE7-93CA36E78456}" ShortID="630954389">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6A1385F8-98CE-4BF4-9B4A-362D84378E5B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{788431F7-6E5E-445E-98C9-1FBA8A70CEE8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LEAF_Rustle_03" ID="{966DF077-BB32-4F4E-802F-140A29B74CE5}">
+											<Language>SFX</Language>
+											<AudioFile>LEAF_Rustle_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="92918531"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LEAF_Rustle_03" ID="{966DF077-BB32-4F4E-802F-140A29B74CE5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{A7569E23-DA23-4857-8D18-8EB6968905B3}">
+									<PropertyList>
+										<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+										<Property Name="PanY" Type="Real64" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="Leaves_Random_Fixed" ID="{3CF7FA1D-CF7C-41A9-A6DC-2C1FCD4C4101}">
+											<PointList>
+												<Point>
+													<XPos>-32</XPos>
+													<YPos>8</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<RTPC Name="" ID="{E64A1F83-58FB-428F-9045-FFFAC715A8D5}" ShortID="501903275">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Leaves_Level" ID="{5BBB84EC-3667-4420-96E2-1A29089CF94C}" WorkUnitID="{5D931709-4C62-4775-B6CD-CE5CFF7FC865}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{31D755FC-067E-454A-B456-3884C15FA3C4}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>25</XPos>
+																<YPos>-12</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>50</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>6</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</PropertyContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>

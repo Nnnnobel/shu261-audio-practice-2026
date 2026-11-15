@@ -1,0 +1,56 @@
+[
+  {
+    "name": "AMB_Stream_Loop",
+    "volume_db": -7.0,
+    "attenuation_distance_scaling": 0.95,
+    "inclusion": true,
+    "position_metres": [
+      -10.78681,
+      -2.0,
+      20.32203
+    ],
+    "distance_metres": 23.09416
+  },
+  {
+    "name": "AMB_ForestWind_Loop",
+    "volume_db": -27.0,
+    "attenuation_distance_scaling": 1,
+    "inclusion": true
+  },
+  {
+    "name": "AMB_Cicadas_Loop",
+    "volume_db": -11.0,
+    "attenuation_distance_scaling": 1,
+    "inclusion": true,
+    "position_metres": [
+      0.0,
+      0.0,
+      22.74576
+    ],
+    "distance_metres": 22.74576
+  },
+  {
+    "name": "Birds_Random",
+    "volume_db": -9.0,
+    "attenuation_distance_scaling": 1,
+    "inclusion": true,
+    "position_metres": [
+      14.14213,
+      0.0,
+      16.20339
+    ],
+    "distance_metres": 21.50697
+  },
+  {
+    "name": "Leaves_Random",
+    "volume_db": -14.0,
+    "attenuation_distance_scaling": 1,
+    "inclusion": true,
+    "position_metres": [
+      -8.0,
+      0.0,
+      2.0
+    ],
+    "distance_metres": 8.24621
+  }
+]

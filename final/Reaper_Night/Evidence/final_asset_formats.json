@@ -1,0 +1,92 @@
+[
+  {
+    "name": "AMB_Cicadas_Loop.wav",
+    "sample_rate": 48000,
+    "bits": 24,
+    "channels": 2,
+    "duration": 28.0,
+    "sha256": "cfadd6b3f8a110a6bbf899cad22ec982d0aa6143e54addf3fbe1e25968de02db",
+    "full_decode_passed": true,
+    "matches_reaper_export": true
+  },
+  {
+    "name": "AMB_ForestWind_Loop.wav",
+    "sample_rate": 48000,
+    "bits": 24,
+    "channels": 2,
+    "duration": 60.0,
+    "sha256": "8a90518fe87cdb9f73f864872ea9ef179d41844565c7279e3d38ff89351f29b3",
+    "full_decode_passed": true,
+    "matches_reaper_export": true
+  },
+  {
+    "name": "AMB_Stream_Loop.wav",
+    "sample_rate": 48000,
+    "bits": 24,
+    "channels": 2,
+    "duration": 42.0,
+    "sha256": "823c02c6c7e70f5ccfbc3372ab6eab245523d3646325348207423cbd81d2b8a4",
+    "full_decode_passed": true,
+    "matches_reaper_export": true
+  },
+  {
+    "name": "BRD_Distant_01.wav",
+    "sample_rate": 48000,
+    "bits": 24,
+    "channels": 2,
+    "duration": 2.3,
+    "sha256": "a9b45032e2728b398b971d32eea1c68d18bed05cd05636e10399b3e77b05b208",
+    "full_decode_passed": true,
+    "matches_reaper_export": true
+  },
+  {
+    "name": "BRD_Distant_02.wav",
+    "sample_rate": 48000,
+    "bits": 24,
+    "channels": 2,
+    "duration": 1.7,
+    "sha256": "bfb20a2950c5d849fbeb1083b115144798c9616ae99f6a2e5e1f27e8915eb033",
+    "full_decode_passed": true,
+    "matches_reaper_export": true
+  },
+  {
+    "name": "BRD_Distant_03.wav",
+    "sample_rate": 48000,
+    "bits": 24,
+    "channels": 2,
+    "duration": 1.5,
+    "sha256": "abcf07d3da29210477ca4108a3f6f3447756590a60ec17db3742e7db86615212",
+    "full_decode_passed": true,
+    "matches_reaper_export": true
+  },
+  {
+    "name": "LEAF_Rustle_01.wav",
+    "sample_rate": 48000,
+    "bits": 24,
+    "channels": 2,
+    "duration": 3.5,
+    "sha256": "549f98a2fec329a54a90c0ca2c97372a44a2ca6c83a601e1e95dd8a0f33f3172",
+    "full_decode_passed": true,
+    "matches_reaper_export": true
+  },
+  {
+    "name": "LEAF_Rustle_02.wav",
+    "sample_rate": 48000,
+    "bits": 24,
+    "channels": 2,
+    "duration": 4.0,
+    "sha256": "4c767f1259553909b165559bd225e2c8e62556911e55ceef6a3084c21dba86e0",
+    "full_decode_passed": true,
+    "matches_reaper_export": true
+  },
+  {
+    "name": "LEAF_Rustle_03.wav",
+    "sample_rate": 48000,
+    "bits": 24,
+    "channels": 2,
+    "duration": 3.0,
+    "sha256": "a5dc5ed6de451154595414440863c1a99ace1b8b76f9e402e96f11cf517ebd23",
+    "full_decode_passed": true,
+    "matches_reaper_export": true
+  }
+]
