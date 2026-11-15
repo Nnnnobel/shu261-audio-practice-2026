@@ -11,6 +11,6 @@
 
 猫头鹰署名：本作品使用 AndrewJonesFoto 的 **owl.wav**，来源 [Freesound](https://freesound.org/people/AndrewJonesFoto/sounds/361899/)，采用 [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) 许可。修改包括选段、淡入淡出、增益降低、重采样和声道转换，并用于场景混音。继续分发相关声音或混音时，请保留作者、来源、许可与修改说明。
 
-参考画面来自 Jinxed Encounter 发布的 [HoYoLAB 帖子](https://www.hoyolab.com/article/15209680)，游戏为《原神》。画面相关权利归原权利方，仅作为课程视觉参考，不适用上述声音素材的 CC0 或 CC BY 许可。
+参考画面采用最新 Word 报告中的《原神》镇守之森图片。游戏画面相关权利归原权利方，仅作课程视觉参考；上述音频许可不适用于该图片。
 
 [来源记录与校验信息](Reaper_Night/selected_sources.json)保留下载变体和源文件哈希。本项目没有提取《原神》的游戏音频。
